@@ -1,0 +1,72 @@
+/* Scss Document */
+/* line 3, ../scss/form.scss */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  height: 300px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 13, ../scss/form.scss */
+body h2 {
+  font-size: 15px;
+}
+/* line 17, ../scss/form.scss */
+body a {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 23, ../scss/form.scss */
+body a:hover {
+  color: #000;
+}
+/* line 27, ../scss/form.scss */
+body .form-container {
+  padding: 40px;
+  background-color: #fff;
+  font-size: 1rem;
+  border-top: 1px solid #ccc;
+  box-shadow: 0px 0px 20px #ccc;
+  position: relative;
+  top: 20%;
+}
+/* line 36, ../scss/form.scss */
+body .form-container h1 {
+  margin-top: 0px;
+}
+/* line 40, ../scss/form.scss */
+body .form-container h2 {
+  margin-bottom: 0px;
+}
+/* line 44, ../scss/form.scss */
+body .form-container p {
+  margin-top: 0px;
+}
+/* line 48, ../scss/form.scss */
+body .form-container form {
+  width: 100%;
+}
+/* line 52, ../scss/form.scss */
+body .form-container input {
+  background-color: #fff !important;
+  padding: 5px;
+  margin: 5px 0px 15px 0;
+}
+/* line 58, ../scss/form.scss */
+body .form-container button {
+  background-color: #000;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 15px 0;
+  margin-right: 5px;
+}
+/* line 67, ../scss/form.scss */
+body .form-container button:hover {
+  cursor: pointer;
+}
